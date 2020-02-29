@@ -1,0 +1,10 @@
+// Access the file "keybindings.json" in Visual Studio Code: "Ctrl + Shift + P" --> "Preferences: Open Keyboard Shortcuts (JSON)"
+// Place your key bindings in this file to override the defaults
+
+	[
+	  {
+	     "key": "ctrl+f5",
+	     "command": "workbench.action.reloadWindow",
+	     "when": "editorTextFocus"
+	  }
+	]
