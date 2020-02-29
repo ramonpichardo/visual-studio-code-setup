@@ -1,0 +1,21 @@
+// Access the file "settings.json" in Visual Studio Code: "Ctrl + Shift + P" --> "Preferences: Open Settings (JSON)"
+// Enable the "Material Icon theme"
+// Disable the Mini Map
+// Enable Code Folding by Indentation
+// Fix Terraform Syntax Check -- Turn off the old extension system; turn on the new language server system
+
+	{
+	  "workbench.iconTheme": "material-icon-theme",
+	  "editor.minimap.enabled": false,
+	  "[terraform]": {
+	    "editor.foldingStrategy": "indentation"
+	    },
+	  "terraform.languageServer": {
+	    "enabled": true,
+	    "args": []
+	    },
+	  "terraform.indexing": {
+	    "enabled": false,
+	    "liveIndexing": false
+	    },
+	}
